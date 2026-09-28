@@ -1,0 +1,169 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eggnog Recipe</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            margin: 20px auto;
+            border: 5px solid #990000;
+            border-collapse: collapse;
+            background-color: #d90000;
+            color: white;
+        }
+
+        th {
+            background-color: #c00000;
+            text-align: left;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        td {
+            padding: 6px 10px;
+            font-size: 13px;
+        }
+
+        /* Các hàng chẵn có màu nhạt hơn */
+        tr:nth-child(even) {
+            background-color: #e65353;
+        }
+
+        /* Hàng tiêu đề */
+        tr:first-child {
+            background-color: #c00000;
+        }
+
+        /* Phần hướng dẫn */
+        .instructions {
+            background-color: #d90000;
+            padding: 5px 10px;
+        }
+
+        ol {
+            margin-top: 0;
+            padding-left: 25px;
+        }
+
+        li {
+            padding: 2px 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+
+        <!-- Hàng tiêu đề -->
+        <tr>
+            <th>Ingredients</th>
+            <th>serves 12</th>
+            <th>serves 24</th>
+        </tr>
+
+        <!-- Hàng 1 -->
+        <tr>
+            <td>milk</td>
+            <td>1 quart</td>
+            <td>2 quart</td>
+        </tr>
+
+        <!-- Hàng 2 -->
+        <tr>
+            <td>cinnamon sticks</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+
+        <!-- Hàng 3 -->
+        <tr>
+            <td>vanilla bean, split</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+
+        <!-- Hàng 4 -->
+        <tr>
+            <td>cloves</td>
+            <td>5</td>
+            <td>10</td>
+        </tr>
+
+        <!-- Hàng 5 -->
+        <tr>
+            <td>mace</td>
+            <td>10 blades</td>
+            <td>20 blades</td>
+        </tr>
+
+        <!-- Hàng 6 -->
+        <tr>
+            <td>egg yolks</td>
+            <td>12</td>
+            <td>24</td>
+        </tr>
+
+        <!-- Hàng 7 -->
+        <tr>
+            <td>cups sugar</td>
+            <td>1 ½ cups</td>
+            <td>3 cups</td>
+        </tr>
+
+        <!-- Hàng 8 -->
+        <tr>
+            <td>dark rum</td>
+            <td>1 ½ cups</td>
+            <td>3 cups</td>
+        </tr>
+
+        <!-- Hàng 9 -->
+        <tr>
+            <td>brandy</td>
+            <td>1 ½ cups</td>
+            <td>3 cups</td>
+        </tr>
+
+        <!-- Hàng 10 -->
+        <tr>
+            <td>vanilla</td>
+            <td>1 tbsp</td>
+            <td>2 tbsp</td>
+        </tr>
+
+        <!-- Hàng 11 -->
+        <tr>
+            <td>half-and-half or light cream</td>
+            <td>1 quart</td>
+            <td>2 quart</td>
+        </tr>
+
+        <!-- Hàng 12 -->
+        <tr>
+            <td>Freshly grated nutmeg to taste</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <!-- Phần hướng dẫn -->
+        <tr>
+            <td colspan="3" class="instructions">
+
+                <ol>
+                    <li>
+                        Combine milk and spices including vanilla bean in a heavy
+                        saucepan and let them infuse over lowest possible heat for
+                        5 minutes.
